@@ -16,5 +16,7 @@ The sprite archive credits these original frames to CHUNSOFT. No ownership of
 the original character or sprites is claimed, and no endorsement is implied.
 PMDCollab's repository terms: https://github.com/PMDCollab/SpriteCollab/blob/master/LICENSE.md
 
-GIF: 1024 x 384, 20 fps, 13.2 seconds, repeating.
+GIF: 1024 x 384, 25 fps, 13.2 seconds, repeating.
+Revised rolling motion follows the silhouette's ground contact, with matched
+travel distance, belly compression, gradual braking and a damped settling rock.
 MP4: matching preview with video seeking and playback controls.

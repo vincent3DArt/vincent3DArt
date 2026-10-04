@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/snorlax-vinh-poster.png">
-  <img src="assets/snorlax-vinh-intro.gif" alt="A sleeping Snorlax rolls in and reveals: Hi my name is Vinh! He wakes up and slams the ground, changing the words to: But people spell it &quot;B-E-N&quot;..." width="100%">
+  <img src="assets/snorlax-vinh-intro.gif?v=2" alt="A sleeping Snorlax rolls in and reveals: Hi my name is Vinh! He wakes up and slams the ground, changing the words to: But people spell it &quot;B-E-N&quot;..." width="100%">
 </picture>
 
 ## Pac-Man contributions
