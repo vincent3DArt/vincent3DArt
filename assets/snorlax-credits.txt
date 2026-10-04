@@ -9,11 +9,12 @@ Character design and sprite artwork: CHUNSOFT, via PMDCollab SpriteCollab.
 Source: https://github.com/PMDCollab/SpriteCollab/tree/967e03358f6c41ff58546af74d7dc21e39a8fa93/sprite/0143
 The chunky Mystery Dungeon design matches the user's selected reference.
 Original Idle, Hop and Stomp frames provide the standing, wake-up and slam poses.
-Front, side and back Rotate frames texture a reconstructed pixel-rendered volume
-for the prone roll and sit-up transition. The head-to-feet body axis points away
-from the viewer. Turning this volume shows belly, side, back and opposite side;
-the animation does not spin a single flat sprite in the picture plane.
-All character art comes from this one source set. No Emerald sprites are used.
+Eight rolling poses were hand-authored to match the original native pixel grid,
+palette, outline, head and small feet. Original PMD details are retained in the
+new poses. The head stays farther away and the soles face the viewer while the
+belly, side, back and opposite side turn into view. Original crouch and idle
+poses bridge the wake-up and lie-down transitions. No Emerald sprites or
+rendered voxel character are used.
 
 Snorlax / Pokemon are owned by Nintendo, Creatures, GAME FREAK and The Pokemon Company.
 No ownership of the original character or sprites is claimed, and no endorsement
