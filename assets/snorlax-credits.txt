@@ -1,0 +1,20 @@
+VINH'S SNORLAX INTRO
+
+Custom 13.2-second animation, typography, effects and timing created for Vinh.
+The two phrases are exactly:
+Hi my name is Vinh!
+But people spell it "B-E-N"...
+
+Snorlax pixel sprites: CHUNSOFT, via the PMDCollab SpriteCollab archive.
+Source: https://github.com/PMDCollab/SpriteCollab/tree/967e03358f6c41ff58546af74d7dc21e39a8fa93/sprite/0143
+Frames used: Sleep, Idle, Hop, Stomp. Character frames are extracted,
+scaled with nearest-neighbor sampling, rotated and sequenced for this banner.
+Background, lettering, dust trail, particles, cracks and animation timing are custom.
+
+Snorlax / Pokemon are owned by Nintendo, Creatures, GAME FREAK and The Pokemon Company.
+The sprite archive credits these original frames to CHUNSOFT. No ownership of
+the original character or sprites is claimed, and no endorsement is implied.
+PMDCollab's repository terms: https://github.com/PMDCollab/SpriteCollab/blob/master/LICENSE.md
+
+GIF: 1024 x 384, 20 fps, 13.2 seconds, repeating.
+MP4: matching preview with video seeking and playback controls.
