@@ -1,0 +1,47 @@
+name: Update Pac-Man contribution graph
+
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pacman.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman-contribution-graph
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Generate light and dark Pac-Man animations
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+          player_style: opportunistic
+
+      - name: Check generated animations
+        run: |
+          test -s dist/pacman-contribution-graph.svg
+          test -s dist/pacman-contribution-graph-dark.svg
+
+      - name: Publish animations to the output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          jekyll: false
+          commit_message: Update Pac-Man contribution animations
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
