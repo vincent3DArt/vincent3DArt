@@ -5,24 +5,20 @@ The two phrases are exactly:
 Hi my name is Vinh!
 But people spell it "B-E-N"...
 
-Snorlax pixel sprites: CHUNSOFT, via the PMDCollab SpriteCollab archive.
-Source: https://github.com/PMDCollab/SpriteCollab/tree/967e03358f6c41ff58546af74d7dc21e39a8fa93/sprite/0143
-Frames used: Idle, Hop, Stomp. Character frames are extracted,
-scaled with nearest-neighbor sampling, rotated and sequenced for this banner.
-Background, lettering, dust trail, particles, cracks and animation timing are custom.
+Every Snorlax pose comes from a SINGLE Pokemon Emerald sprite animation.
+Sprite artwork: Pokemon Emerald / GAME FREAK, supplied via PokeAPI.
+Source: https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/versions/generation-iii/emerald/animated/143.png
 
-Feet-facing sleeping/rolling pose: Pokemon Emerald / GAME FREAK, via PokeAPI.
-Source: https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/versions/generation-iii/emerald/143.png
-The reclining source pose is palette-matched to the other sprites, resized,
-and animated from the foot end, keeping both soles directed toward the viewer.
+Rolling, sleeping, yawning, jumping, landing and recovering all use this same
+sprite set, palette and native pixel scale. The frames are palette-conformed,
+sequenced, rotated, and animated with squash and stretch. No Mystery Dungeon
+or other game's sprite design is mixed into the sequence.
 
 Snorlax / Pokemon are owned by Nintendo, Creatures, GAME FREAK and The Pokemon Company.
-The sprite archive credits these original frames to CHUNSOFT. No ownership of
-the original character or sprites is claimed, and no endorsement is implied.
-PMDCollab's repository terms: https://github.com/PMDCollab/SpriteCollab/blob/master/LICENSE.md
+No ownership of the original character or sprites is claimed, and no endorsement
+is implied. Background, lettering, dust, cracks and animation timing are custom.
 
 GIF: 1024 x 384, 25 fps, 13.2 seconds, repeating.
 Sideways rolling is viewed from the feet toward the head, with both paw pads
-visible in the foreground during the roll and the resting sleep pose.
-Ground contact, belly compression and gradual braking support the motion.
+visible during the roll. Ground contact and gradual braking support the motion.
 MP4: matching preview with video seeking and playback controls.
