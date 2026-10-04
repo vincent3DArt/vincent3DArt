@@ -7,9 +7,14 @@ But people spell it "B-E-N"...
 
 Snorlax pixel sprites: CHUNSOFT, via the PMDCollab SpriteCollab archive.
 Source: https://github.com/PMDCollab/SpriteCollab/tree/967e03358f6c41ff58546af74d7dc21e39a8fa93/sprite/0143
-Frames used: Sleep, Idle, Hop, Stomp, Rotate. Character frames are extracted,
+Frames used: Idle, Hop, Stomp. Character frames are extracted,
 scaled with nearest-neighbor sampling, rotated and sequenced for this banner.
 Background, lettering, dust trail, particles, cracks and animation timing are custom.
+
+Feet-facing sleeping/rolling pose: Pokemon Emerald / GAME FREAK, via PokeAPI.
+Source: https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/versions/generation-iii/emerald/143.png
+The reclining source pose is palette-matched to the other sprites, resized,
+and animated from the foot end, keeping both soles directed toward the viewer.
 
 Snorlax / Pokemon are owned by Nintendo, Creatures, GAME FREAK and The Pokemon Company.
 The sprite archive credits these original frames to CHUNSOFT. No ownership of
@@ -17,7 +22,7 @@ the original character or sprites is claimed, and no endorsement is implied.
 PMDCollab's repository terms: https://github.com/PMDCollab/SpriteCollab/blob/master/LICENSE.md
 
 GIF: 1024 x 384, 25 fps, 13.2 seconds, repeating.
-Sideways rolling uses eight belly, side and back views with the head kept
-at the right end. Only a small 3-degree weight shift tilts the image plane.
+Sideways rolling is viewed from the feet toward the head, with both paw pads
+visible in the foreground during the roll and the resting sleep pose.
 Ground contact, belly compression and gradual braking support the motion.
 MP4: matching preview with video seeking and playback controls.
